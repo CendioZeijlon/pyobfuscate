@@ -1176,7 +1176,7 @@ class Configuration:
 
         self.file = args[0]
         self.indent = 1
-        self.seed = 42
+        self.seed = None
         self.blanks = self.OBFUSCATE_BLANKS
         self.firstcomment = False
         self.allpublic = False
